@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Button} from "./components/Button";
 import {v1} from "uuid";
@@ -11,7 +10,7 @@ function App() {
 
     const initialState = ['0']
     const [state, setState] = useState<stateTypes>(initialState)
-    const [result, setResult] = useState([''])
+    const [result, setResult] = useState<stateTypes>([''])
 
     const calc = (v: string) => {
         let cur = state.length - 1
@@ -34,18 +33,23 @@ function App() {
             copy.push(v)
             return copy
         }
-        if ((v === '+' || v === '-' || v === '/' || v === '*') && (state.length % 2)) {
-            if (copy[cur].endsWith('.')) {
-                copy[cur] = copy[cur].slice(0, -1)
+        if ((v === '+' || v === '-' || v === '/' || v === '*')) {
+            if (state.length % 2) {
+                if (copy[cur].endsWith('.')) {
+                    copy[cur] = copy[cur].slice(0, -1)
+                }
+                copy.push(v)
+                return copy
+            } else {
+                copy[cur] = v
+                return copy
             }
-            copy.push(v)
-            return copy
         }
-
         if (v === 'Enter') {
             let results = [...result, currentResult]
-            setResult( results )
-            return copy = ['0']
+            setResult(results)
+            copy = ['0']
+            return copy
         } else return copy
     }
 
