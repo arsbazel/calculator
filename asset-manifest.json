@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/arsbazel.github.io/calculator/static/css/main.59c1fc30.chunk.css",
+    "main.js": "/arsbazel.github.io/calculator/static/js/main.c6ad2c7e.chunk.js",
+    "main.js.map": "/arsbazel.github.io/calculator/static/js/main.c6ad2c7e.chunk.js.map",
+    "runtime-main.js": "/arsbazel.github.io/calculator/static/js/runtime-main.037d4740.js",
+    "runtime-main.js.map": "/arsbazel.github.io/calculator/static/js/runtime-main.037d4740.js.map",
+    "static/js/2.bea516bf.chunk.js": "/arsbazel.github.io/calculator/static/js/2.bea516bf.chunk.js",
+    "static/js/2.bea516bf.chunk.js.map": "/arsbazel.github.io/calculator/static/js/2.bea516bf.chunk.js.map",
+    "static/js/3.476bd96b.chunk.js": "/arsbazel.github.io/calculator/static/js/3.476bd96b.chunk.js",
+    "static/js/3.476bd96b.chunk.js.map": "/arsbazel.github.io/calculator/static/js/3.476bd96b.chunk.js.map",
+    "index.html": "/arsbazel.github.io/calculator/index.html",
+    "static/css/main.59c1fc30.chunk.css.map": "/arsbazel.github.io/calculator/static/css/main.59c1fc30.chunk.css.map",
+    "static/js/2.bea516bf.chunk.js.LICENSE.txt": "/arsbazel.github.io/calculator/static/js/2.bea516bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.037d4740.js",
+    "static/js/2.bea516bf.chunk.js",
+    "static/css/main.59c1fc30.chunk.css",
+    "static/js/main.c6ad2c7e.chunk.js"
+  ]
+}
