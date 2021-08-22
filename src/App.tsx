@@ -109,8 +109,6 @@ function App() {
             <div className="currentResult">{state.join(' ')} = {currentResult}</div>
             <div>Результаты:</div>
             <div className="results">{result.map((el: string) => <div>{el}</div>)}</div>
-
-
         </div>
     );
 }
